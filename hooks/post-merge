@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#
+# This psot-merger execute the script "decrypt.py" to decrypt the file "temp_data.py"
+#
+
+python ./decrypt.py
+echo temp_data.py has been decrypted
+sleep 1
+exit
