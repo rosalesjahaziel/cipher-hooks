@@ -7,4 +7,6 @@
 python ./encrypt.py
 echo data.py has been encrypted
 sleep 1
-#git add .
+git add .
+sleep 1
+exit
