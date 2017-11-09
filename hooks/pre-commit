@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#
+# This pre-commit execute the script "encrypt.py" to encrypt the file "data.py"
+#
+
+python ./encrypt.py
+echo data.py has been encrypted
+sleep 1
+#git add .
